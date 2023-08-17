@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { client } from "./client";
+import { client } from "../client";
 
 import { INLINES } from "@contentful/rich-text-types";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
